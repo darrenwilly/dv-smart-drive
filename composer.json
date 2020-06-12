@@ -1,0 +1,39 @@
+{
+    "name": "dv/smart-array-drive",
+    "description": "Darvism Smart Array Drive using Flysystem",
+    "type": "Smart Array Library",
+    "homepage": "https://github.com/darrism/dv-smart-array-drive",
+    "license": "Open-Source",
+    "keywords": [
+        "darviews",
+        "solutions",
+        "league" ,
+        "symfony"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "support": {
+        "issues": "https://support.darviews.com"
+    },
+    "require": {
+        "php": "^7.2",
+        "league/flysystem-bundle": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DV\\SmartArrayDrive\\": "src/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "4.3.*"
+        }
+    },
+    "scripts": {
+    }
+}
