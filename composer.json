@@ -1,14 +1,17 @@
 {
-    "name": "dv/smart-array-drive",
-    "description": "Darvism Smart Array Drive using Flysystem",
+    "name": "darviews/dv-smart-drive",
+    "description": "PHP Smart Array drive built to enhance the use Flysystem to create Cloud Smart Arrive Drive",
     "type": "Smart Array Library",
-    "homepage": "https://github.com/darrism/dv-smart-array-drive",
+    "homepage": "https://github.com/darrenwilly/dv-smart-drive",
     "license": "Open-Source",
     "keywords": [
         "darviews",
         "solutions",
         "league" ,
-        "symfony"
+        "symfony" ,
+        "array" ,
+        "smart-drive",
+        "array-drive"
     ],
     "config": {
         "sort-packages": true
